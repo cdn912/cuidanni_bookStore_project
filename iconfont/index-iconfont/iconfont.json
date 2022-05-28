@@ -1,0 +1,30 @@
+{
+  "id": "3418477",
+  "name": "5.21",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "706845",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "4346520",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6420510",
+      "name": "闹钟",
+      "font_class": "naozhong-",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/登录.min.css">
+    <link rel="stylesheet" href="./iconfont/iconfont1/iconfont.css">
+    <link rel="stylesheet" href="./iconfont/iconfont2/iconfont.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./images/logo.jpg" alt="">
+            <div class="advice">
+                <div>切换无障碍</div>
+                <div>
+                    <span class="iconfont icon-duihuaxinxitianchong"></span><span>“登录页面”改进建议</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 核心 -->
+    <section>
+        <div class="container">
+            <div class="adv">
+                <img src="./images/adv.jpg" alt="">
+            </div>
+            <div class="register">   
+                <div class="btns">
+                    <span class="secret active">密码登录</span>
+                    <span class="verify">验证码登录</span>
+                </div>
+                <div class="content">
+                    <!-- 密码登录 -->
+                    <div class="secretpage">
+                        <div>
+                            <input type="text" placeholder="用户名/手机号/邮箱" id="username">
+                            <p id="showUser" class="showUser"></p>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="密码" id="pwd">
+                            <span class="iconfont icon-biyanjing"></span>
+                            <p id="showPass" class="showPass"></p>
+                        </div>
+                    </div>
+                    <!-- 验证码登录 -->
+                    <div class="verifypage">
+                        <div>
+                            <input type="text" placeholder="手机号">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="验证码"><button>发送验证码</button>
+                        </div>
+                    </div>
+                </div>
+                <div><span>登录即同意</span> 用户协议、隐私政策</div>
+                <div>
+                    <input type="button" value="登录" id="btnLogin">
+                    <div id="msg" class="msg"></div>
+                </div>
+                <div><span class="zhuce">立即注册</span> &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;忘记密码</div>
+                <div>
+                    <span class="iconfont icon-weixin"></span>
+                    <span class="iconfont icon-zhifubao"></span>
+                    <span class="iconfont icon-QQ"></span>
+                    <span class="iconfont icon-shejiaotubiao-42"></span>
+                    <span class="iconfont icon-baidu"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+        <ul>
+            <li>公司简介</li>
+            <li>诚聘英才</li>
+            <li>网站联盟</li>
+            <li>当当招商</li>
+            <li>机构销售</li>
+            <li>手机当当</li>
+            <li>官方Blog</li>
+            <li>知识产权</li>
+            <li>热词搜索</li>
+        </ul>
+        <div>Copyright (C) 当当网 2004-2021, All Rights Reserved</div>
+        <div>京ICP证041189号&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;出版物经营许可证 新出发京批字第直0673号&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;食品经营许可证：JY11101050363440</div>
+        <div>京ICP备17043473号-1&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010502037644号京公网安备11010502037644号 &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;经营许可证编号：合字B2-20160011 &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;互联网药品信息服务资格证</div>
+        <div>互联网违法和不良信息举报电话：4001066666-5 邮箱：service@cs.dangdang.com</div>
+        <div>网络出版服务许可证（总）网出证（京）字第049号北京当当科文电子商务有限公司，公司地址：北京市朝阳区北三环东路8号静安中心21层</div>
+        <div>
+            <img src="./images/b1_03.jpg" alt="">
+            <img src="./images/b2_03.jpg" alt="">
+            <img src="./images/b3_05.jpg" alt="">
+            <img src="./images/b4_03.jpg" alt="">
+        </div>
+    </footer>
+
+    <script src="./jquery-3.2.0.min.js"></script>
+    <script src="./jquery.cookie.1.4.1.min.js"></script>
+    <script src="./js/login.js"></script>
+    
+</body>
+</html>

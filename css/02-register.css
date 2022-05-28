@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+header .container .advice {
+  float: right;
+  font-size: 14px;
+  color: #626262;
+}
+
+header .container .advice div:nth-child(1) {
+  text-align: right;
+}
+
+header .container .advice div:nth-child(2) {
+  line-height: 28px;
+}
+
+header .container .advice div:nth-child(2) span:nth-child(1) {
+  color: red;
+}
+
+section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .container .adv img {
+  height: 500px;
+}
+
+section .container .login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 3px #ccc;
+}
+
+section .container .login .back {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+section .container .login .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+section .container .login .name {
+  height: 80px;
+}
+
+section .container .login .name input {
+  width: 300px;
+  height: 50px;
+  margin: 20px 0 5px 0;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+}
+
+section .container .login .name p {
+  height: 30px;
+  width: 300px;
+}
+
+section .container .login .password {
+  height: 80px;
+  margin-top: 30px;
+}
+
+section .container .login .password input {
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+}
+
+section .container .login .password p {
+  height: 30px;
+  width: 300px;
+}
+
+section .container .login .agree {
+  padding: 5px 0 10px 0;
+}
+
+section .container .login .agree span {
+  font-size: 14px;
+  color: #626262;
+}
+
+section .container .login .btn {
+  margin-top: 10px;
+}
+
+section .container .login .btn input {
+  width: 350px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+section .container .login .pay {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 290px;
+}
+
+section .container .login .pay span {
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+section .container .login .pay .icon-weixin {
+  color: #6dd560;
+}
+
+section .container .login .pay .icon-zhifubao {
+  color: #4bc9fb;
+}
+
+section .container .login .pay .icon-QQ {
+  color: #63a3f0;
+}
+
+section .container .login .pay .icon-shejiaotubiao-42 {
+  color: #fd846c;
+}
+
+section .container .login .pay .icon-baidu {
+  color: #779cf3;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: 12px;
+  line-height: 24px;
+  color: #8c8c8c;
+  margin-top: 100px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul li {
+  padding: 0 20px;
+  border-right: 1px solid #8c8c8c;
+}
+
+footer ul li:last-child {
+  border: none;
+}
+
+footer div:nth-child(2) {
+  padding: 30px 0 15px 0;
+}
+
+footer div:nth-child(7) {
+  margin: 30px 0;
+}
+
+footer div:nth-child(7) img {
+  height: 50px;
+  margin-right: 20px;
+}

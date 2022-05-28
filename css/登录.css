@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+header .container .advice {
+  float: right;
+  font-size: 14px;
+  color: #626262;
+}
+
+header .container .advice div:nth-child(1) {
+  text-align: right;
+}
+
+header .container .advice div:nth-child(2) {
+  line-height: 28px;
+}
+
+header .container .advice div:nth-child(2) span:nth-child(1) {
+  color: red;
+}
+
+section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .container .adv img {
+  height: 500px;
+}
+
+section .container .register {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 3px #ccc;
+}
+
+section .container .register .btns {
+  display: flex;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+section .container .register .btns span {
+  padding: 0 30px;
+}
+
+section .container .register .btns span:nth-child(1) {
+  border-right: 1px solid #ccc;
+}
+
+section .container .register .btns .active {
+  font-weight: 700;
+}
+
+section .container .register .content .secretpage input {
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+}
+
+section .container .register .content .secretpage span {
+  position: absolute;
+  right: 35px;
+  top: 172px;
+}
+
+section .container .register .content .secretpage p {
+  height: 20px;
+  line-height: 12px;
+  font-size: 12px;
+}
+
+section .container .register .content .verifypage {
+  display: none;
+}
+
+section .container .register .content .verifypage div:nth-child(1) input {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+}
+
+section .container .register .content .verifypage div:nth-child(2) input {
+  width: 250px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+section .container .register .content .verifypage div:nth-child(2) button {
+  width: 100px;
+  height: 50px;
+  outline: none;
+  border: none;
+  color: red;
+  background-color: #f9f9f9;
+  vertical-align: top;
+}
+
+section .container .register div:nth-child(3) {
+  padding-bottom: 20px;
+}
+
+section .container .register div:nth-child(3) span {
+  font-size: 14px;
+  color: #626262;
+}
+
+section .container .register div:nth-child(4) input {
+  width: 350px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+section .container .register div:nth-child(4) .msg {
+  width: 350px;
+  height: 22px;
+  font-size: 12px;
+}
+
+section .container .register div:nth-child(5) {
+  font-size: 14px;
+  color: #626262;
+  padding-top: 20px;
+}
+
+section .container .register div:nth-child(6) {
+  margin-top: 30px;
+}
+
+section .container .register div:nth-child(6) span {
+  font-size: 28px;
+  padding-left: 25px;
+}
+
+section .container .register div:nth-child(6) .icon-weixin {
+  color: #6dd560;
+}
+
+section .container .register div:nth-child(6) .icon-zhifubao {
+  color: #4bc9fb;
+}
+
+section .container .register div:nth-child(6) .icon-QQ {
+  color: #63a3f0;
+}
+
+section .container .register div:nth-child(6) .icon-shejiaotubiao-42 {
+  color: #fd846c;
+}
+
+section .container .register div:nth-child(6) .icon-baidu {
+  color: #779cf3;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: 12px;
+  line-height: 24px;
+  color: #8c8c8c;
+  margin-top: 100px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer ul li {
+  padding: 0 20px;
+  border-right: 1px solid #8c8c8c;
+}
+
+footer ul li:last-child {
+  border: none;
+}
+
+footer div:nth-child(2) {
+  padding: 30px 0 15px 0;
+}
+
+footer div:nth-child(7) {
+  margin: 30px 0;
+}
+
+footer div:nth-child(7) img {
+  height: 50px;
+  margin-right: 20px;
+}

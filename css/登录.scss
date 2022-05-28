@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+input{
+    outline: none;
+    border: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+//头部区域
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    .advice{
+        float: right;
+        font-size: 14px;
+        color: rgb(98, 98, 98);
+        div:nth-child(1){
+            text-align: right;
+        }
+        div:nth-child(2){
+            line-height: 28px;
+            span:nth-child(1){
+                color: red;
+            }
+        }
+    }
+}
+
+//核心区域
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .adv img{
+        height: 500px;
+    }
+    .register{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 450px;
+        border-radius: 20px;
+        box-shadow: 0 0 3px #ccc;
+        .btns{
+            display: flex;
+            font-size: 20px;
+            margin: 30px 0;
+            span{
+                padding: 0 30px;
+                &:nth-child(1){
+                    border-right: 1px solid #ccc;
+                }
+            }
+            .active{
+                font-weight: 700;
+            }
+        }
+        .content {
+            .secretpage {
+                input{
+                    width: 350px;
+                    height: 50px;
+                    //margin-bottom: 20px;
+                    padding-left: 20px;
+                    background-color: rgb(249,249,249);
+                }
+                span{
+                    position: absolute;
+                    right: 35px;
+                    top: 172px;
+                }
+                p{
+                    height: 20px;
+                    line-height: 12px;
+                    font-size: 12px;
+                }
+            } 
+            .verifypage{
+                display: none;
+                div:nth-child(1) input{
+                    width: 350px;
+                    height: 50px;
+                    margin-bottom: 20px ;
+                    padding-left: 20px;
+                    background-color: rgb(249,249,249);
+                }
+                div:nth-child(2) input{
+                    width: 250px;
+                    height: 50px;
+                    padding-left: 20px;
+                    background-color: rgb(249,249,249);
+                    margin-bottom: 20px ;
+                }
+                div:nth-child(2) button{
+                    width: 100px;
+                    height: 50px;
+                    outline: none;
+                    border: none;
+                    color: red;
+                    background-color: rgb(249,249,249);
+                    vertical-align: top;
+                }
+                
+            }
+        }
+        div:nth-child(3){
+            padding-bottom: 20px;
+            span{
+                font-size: 14px;
+                color: rgb(98, 98, 98);
+            }
+        }
+        div:nth-child(4) {
+            input{
+                width: 350px;
+                height: 50px;
+                background-color: red;
+                color: white;
+                font-size: 20px;
+                border-radius: 5px;
+            }
+            .msg{
+                width: 350px;
+                height: 22px;
+                font-size: 12px;
+            }
+        }
+        div:nth-child(5){
+            font-size: 14px;
+            color: rgb(98, 98, 98);
+            padding-top: 20px;
+        }
+        div:nth-child(6){
+            margin-top: 30px;
+            span{
+                font-size: 28px;
+                padding-left: 25px;
+            }
+           .icon-weixin{
+               color: #6dd560;
+           }
+           .icon-zhifubao{
+                color: #4bc9fb;
+            }
+            .icon-QQ{
+                color: #63a3f0;
+            }
+            .icon-shejiaotubiao-42{
+                color: #fd846c;
+            }
+            .icon-baidu{
+                color: #779cf3;
+            }
+        }
+    }
+}
+
+//底部
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: 12px;
+    line-height: 24px;
+    color: #8c8c8c;
+    margin-top: 100px;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            padding: 0 20px;
+            border-right: 1px solid #8c8c8c;
+            &:last-child{
+                border: none;
+            }
+        }
+    }
+    div:nth-child(2){
+        padding: 30px 0 15px 0;
+    }
+    div:nth-child(7){
+        margin: 30px 0;
+        img{
+            height: 50px;
+            margin-right: 20px;
+        }
+    }
+}
